@@ -1,0 +1,16 @@
+1) check internet access via ping 8.8.8.8 or 1.1.1.1
+	if there is no access, then:
+	1.1) check setting of network connection - static or dhcp
+	1.2) check ping to the router
+	1.3) check internet on the router
+	1.4) check nat settings on the router or port mapping or dhcp setting
+2) check if the port is open from sites like portchecker.co
+	if there is no access:
+	2.1) need check config on server side
+3) if you have access to the internet and no access to the ssh check/change ssh client or check encryption setting or disable firewall/av
+4) if all of the above did not work, maybe your company is using ngfw/utm with blocking policy ssh to outside.
+
+
+
+
+
